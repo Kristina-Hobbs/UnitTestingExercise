@@ -2,11 +2,26 @@
 
 namespace UnitTestingExercise
 {
-    class Program
+    public class UnitTestMethods
     {
-        static void Main(string[] args)
+        public int Add(int one, int two, int three)
         {
-            Console.WriteLine("Hello World!");
+            return one + two + three;
+        }
+
+        public int Subtract(int minuend, int subtrhend)
+        {
+            return minuend - subtrhend;
+        }
+
+        public int Multiply(int one, int two)
+        {
+            return one * two;
+        }
+
+        public int Divide(int one, int two)
+        {
+            return one / two;
         }
     }
 }

@@ -12,10 +12,10 @@ namespace UnitTestingExercise
 
         // Step 2: Create an Add method that accepts 3 integers, adds those integers, and returns an integer
         //For Example:
-        public int Add(int num1, int num2, int num3)
-        {
-            return num1 + num2 + num3;
-        }
+        //public int Add(int num1, int num2, int num3)
+        //{
+        //    return num1 + num2 + num3;
+        //}
 
 
         // Step 3: Navigate to the UnitTests.cs file and complete the AddTest unit test method 
